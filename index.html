@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+  <link rel="icon" type="image/x-icon" href="./Assets/LUXURIA icon.ico">
+  <title>Luxuria</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <script src="./menu.js" defer></script>
+</head>
+
+<body>
+
+  <header id="Barra-principal">
+    <a href="index.html"><img class="logo-luxuria" src="./Assets/LUXURIA sem fundo.png" alt="Logo da marca"></a>
+
+    <!-- Barra para buscar -->
+
+    <div id="busca">
+      <img class="lupa" src="./Assets/procurar.png" alt="">
+      <input id="barra-busca" name="search" type="text" placeholder="Buscar">
+    </div>
+
+    <!-- Interações do usuário  -->
+    <div class="icones">
+      <a id="barra-conta" href="#pag-login"><img src="./Assets/Sua conta.png" alt=""></a>
+
+      <a id="barra-sacola" href="#sacola"><img src="./Assets/Sua sacola.png" alt=""></a>
+    </div>
+
+    <!-- Menu -->
+    <div id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#Exclusivos">Exclusivos</a></li>
+          <li><a href="#Masculino">Masculino</a></li>
+          <li><a href="#Feminino">Feminino</a></li>
+          <li><a href="#Unissex">Unissex</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="menu-bg" id="menu-bg"></div>
+
+  </header>
+
+
+  <main>
+    <!-- Banner -->
+    <img id="Banner" src="./Assets/banner.jpg" alt="">
+
+    <!-- Titulo -->
+    <h3 class="lancamento">Lançamentos:</h3>
+
+    <!-- primeira roupa -->
+    <div id="roupas">
+      <div class="slider">
+        <input type="radio" id="slide1" name="slides" checked>
+        <input type="radio" id="slide2" name="slides">
+        <input type="radio" id="slide3" name="slides">
+        <input type="radio" id="slide4" name="slides">
+
+        <div class="slides-container">
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Camisa preta logo 1.png" alt="Imagem 4">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Camisa branca logo 1.png" alt="Imagem 2">
+          </div>
+        </div>
+
+        <div class="slides-navigation">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+        </div>
+      </div>
+
+
+      <!-- info primeira roupa -->
+      <div class="infos-roupas">
+        <h3>The Japan</h3>
+        <h5>Exclusivos</h4>
+          <h4>R$ 199,90</h4>
+      </div>
+
+
+      <!-- segunda roupa -->
+      <div class="slider">
+        <input type="radio" id="slide5" name="slides1" checked>
+        <input type="radio" id="slide6" name="slides1">
+        <input type="radio" id="slide7" name="slides1">
+        <input type="radio" id="slide8" name="slides1">
+
+        <div class="slides-container">
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Camisa branca logo 2.png" alt="Imagem 2">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Camisa preta logo 2.png" alt="Imagem 4">
+          </div>
+        </div>
+
+        <div class="slides-navigation">
+          <label for="slide5"></label>
+          <label for="slide6"></label>
+          <label for="slide7"></label>
+          <label for="slide8"></label>
+        </div>
+      </div>
+
+      <!-- info segunda roupa -->
+      <div class="infos-roupas">
+        <h3>The Draco</h3>
+        <h5>Exclusivos</h4>
+          <h4>R$ 199,90</h4>
+      </div>
+
+      <!-- terceira roupa -->
+      <div class="slider">
+        <input type="radio" id="slide9" name="slides2" checked>
+        <input type="radio" id="slide10" name="slides2">
+        <input type="radio" id="slide11" name="slides2">
+        <input type="radio" id="slide12" name="slides2">
+
+        <div class="slides-container">
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Moletom preto logo 1.png" alt="Imagem 4">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Moletom branco logo 1.png" alt="Imagem 2">
+          </div>
+        </div>
+
+        <div class="slides-navigation">
+          <label for="slide9"></label>
+          <label for="slide10"></label>
+          <label for="slide11"></label>
+          <label for="slide12"></label>
+        </div>
+      </div>
+
+
+      <!-- info terceira roupa -->
+      <div class="infos-roupas">
+        <h3>The Eerie</h3>
+        <h5>Exclusivos</h4>
+          <h4>R$ 249,90</h4>
+      </div>
+
+      <!-- quarta roupa -->
+      <div class="slider">
+        <input type="radio" id="slide13" name="slides3" checked>
+        <input type="radio" id="slide14" name="slides3">
+        <input type="radio" id="slide15" name="slides3">
+        <input type="radio" id="slide16" name="slides3">
+
+        <div class="slides-container">
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Moletom branco logo 2.png" alt="Imagem 2">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+          </div>
+          <div class="slide">
+            <img src="./Assets/Roupas prontas/Moletom preto logo 2.png" alt="Imagem 4">
+          </div>
+        </div>
+
+        <div class="slides-navigation">
+          <label for="slide13"></label>
+          <label for="slide14"></label>
+          <label for="slide15"></label>
+          <label for="slide16"></label>
+        </div>
+      </div>
+
+
+      <!-- info quarta roupa -->
+      <div class="infos-roupas">
+        <h3>The Angel</h3>
+        <h5>Exclusivos</h4>
+          <h4>R$ 249,90</h4>
+      </div>
+    </div>
+
+    <!-- Página de login -->
+    <div id="pag-login">
+      <div class="quadro-cinza">
+        <h2>Login</h2>
+        <img id="img-email" src="./Assets/Email.png" alt="">
+        <input class="email" type="email" placeholder="Email">
+        <img id="img-senha" src="./Assets/Senha.png" alt="">
+        <input class="senha" type="password" placeholder="Senha">
+        <label>
+          <input type="checkbox">
+          <p>Lembrar de mim</p>
+        </label>
+
+        <label>
+          <input type="checkbox">
+          <p>Esqueci minha senha</p>
+        </label>
+
+        <a class="botao-log" href="index.html"><button class="botao-login">Login</button></a>
+      </div>
+
+    </div>
+
+    <!-- Categorias -->
+
+    <!-- Exclusivos -->
+    <section id="Exclusivos">
+
+      <div>
+        <h2 class="Title-cate">Exclusivos</h2>
+        <p class="Para-cate">Produtos Exclusivos são produtos que duram por um determinado tempo e não voltaram a ser
+          comercializados novamente</p>
+      </div>
+      <div id="roupas">
+        <div class="slider">
+          <input type="radio" id="slide17" name="slides4" checked>
+          <input type="radio" id="slide18" name="slides4">
+          <input type="radio" id="slide19" name="slides4">
+          <input type="radio" id="slide20" name="slides4">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide17"></label>
+            <label for="slide18"></label>
+            <label for="slide19"></label>
+            <label for="slide20"></label>
+          </div>
+        </div>
+
+
+        <!-- info primeira roupa -->
+        <div class="infos-roupas">
+          <h3>The Japan</h3>
+          <h5>Exclusivos</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+
+        <!-- segunda roupa -->
+        <div class="slider">
+          <input type="radio" id="slide21" name="slides5" checked>
+          <input type="radio" id="slide22" name="slides5">
+          <input type="radio" id="slide23" name="slides5">
+          <input type="radio" id="slide24" name="slides5">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide21"></label>
+            <label for="slide22"></label>
+            <label for="slide23"></label>
+            <label for="slide24"></label>
+          </div>
+        </div>
+
+        <!-- info segunda roupa -->
+        <div class="infos-roupas">
+          <h3>The Draco</h3>
+          <h5>Exclusivos</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+        <!-- terceira roupa -->
+        <div class="slider">
+          <input type="radio" id="slide25" name="slides6" checked>
+          <input type="radio" id="slide26" name="slides6">
+          <input type="radio" id="slide27" name="slides6">
+          <input type="radio" id="slide28" name="slides6">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide25"></label>
+            <label for="slide26"></label>
+            <label for="slide27"></label>
+            <label for="slide28"></label>
+          </div>
+        </div>
+
+
+        <!-- info terceira roupa -->
+        <div class="infos-roupas">
+          <h3>The Eerie</h3>
+          <h5>Exclusivos</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+
+        <!-- quarta roupa -->
+        <div class="slider">
+          <input type="radio" id="slide29" name="slides7" checked>
+          <input type="radio" id="slide30" name="slides7">
+          <input type="radio" id="slide31" name="slides7">
+          <input type="radio" id="slide32" name="slides7">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide29"></label>
+            <label for="slide30"></label>
+            <label for="slide31"></label>
+            <label for="slide32"></label>
+          </div>
+        </div>
+
+
+        <!-- info quarta roupa -->
+        <div class="infos-roupas">
+          <h3>The Angel</h3>
+          <h5>Exclusivos</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+      </div>
+      <div id="roupas">
+        <div class="slider">
+          <input type="radio" id="slide33" name="slides8" checked>
+          <input type="radio" id="slide34" name="slides8">
+          <input type="radio" id="slide35" name="slides8">
+          <input type="radio" id="slide36" name="slides8">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide33"></label>
+            <label for="slide34"></label>
+            <label for="slide35"></label>
+            <label for="slide36"></label>
+          </div>
+        </div>
+
+
+        <!-- info primeira roupa -->
+        <div class="infos-roupas">
+          <h3>The Japan</h3>
+          <h5>Exclusivos</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+
+        <!-- segunda roupa -->
+        <div class="slider">
+          <input type="radio" id="slide37" name="slides9" checked>
+          <input type="radio" id="slide38" name="slides9">
+          <input type="radio" id="slide39" name="slides9">
+          <input type="radio" id="slide40" name="slides9">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide37"></label>
+            <label for="slide38"></label>
+            <label for="slide39"></label>
+            <label for="slide40"></label>
+          </div>
+        </div>
+
+        <!-- info segunda roupa -->
+        <div class="infos-roupas">
+          <h3>The Draco</h3>
+          <h5>Exclusivos</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+        <!-- terceira roupa -->
+        <div class="slider">
+          <input type="radio" id="slide41" name="slides10" checked>
+          <input type="radio" id="slide42" name="slides10">
+          <input type="radio" id="slide43" name="slides10">
+          <input type="radio" id="slide44" name="slides10">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide41"></label>
+            <label for="slide42"></label>
+            <label for="slide43"></label>
+            <label for="slide44"></label>
+          </div>
+        </div>
+
+
+        <!-- info terceira roupa -->
+        <div class="infos-roupas">
+          <h3>The Eerie</h3>
+          <h5>Exclusivos</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+
+        <!-- quarta roupa -->
+        <div class="slider">
+          <input type="radio" id="slide45" name="slides11" checked>
+          <input type="radio" id="slide46" name="slides11">
+          <input type="radio" id="slide47" name="slides11">
+          <input type="radio" id="slide48" name="slides11">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide45"></label>
+            <label for="slide46"></label>
+            <label for="slide47"></label>
+            <label for="slide48"></label>
+          </div>
+        </div>
+
+
+        <!-- info quarta roupa -->
+        <div class="infos-roupas">
+          <h3>The Angel</h3>
+          <h5>Exclusivos</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Masculino -->
+    <section id="Masculino">
+      <div>
+        <h2 class="Title-cate">Masculino</h2>
+        <p class="Para-cate">Produtos voltados para o público masculino</p>
+      </div>
+      <div id="roupas">
+        <div class="slider">
+          <input type="radio" id="slide49" name="slides16" checked>
+          <input type="radio" id="slide50" name="slides16">
+          <input type="radio" id="slide51" name="slides16">
+          <input type="radio" id="slide52" name="slides16">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide49"></label>
+            <label for="slide50"></label>
+            <label for="slide51"></label>
+            <label for="slide52"></label>
+          </div>
+        </div>
+
+
+        <!-- info primeira roupa -->
+        <div class="infos-roupas">
+          <h3>The Japan</h3>
+          <h5>Masculino</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+
+        <!-- segunda roupa -->
+        <div class="slider">
+          <input type="radio" id="slide53" name="slides17" checked>
+          <input type="radio" id="slide54" name="slides17">
+          <input type="radio" id="slide55" name="slides17">
+          <input type="radio" id="slide56" name="slides17">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide53"></label>
+            <label for="slide54"></label>
+            <label for="slide55"></label>
+            <label for="slide56"></label>
+          </div>
+        </div>
+
+        <!-- info segunda roupa -->
+        <div class="infos-roupas">
+          <h3>The Draco</h3>
+          <h5>Masculino</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+        <!-- terceira roupa -->
+        <div class="slider">
+          <input type="radio" id="slide57" name="slides18" checked>
+          <input type="radio" id="slide58" name="slides18">
+          <input type="radio" id="slide59" name="slides18">
+          <input type="radio" id="slide60" name="slides18">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide57"></label>
+            <label for="slide58"></label>
+            <label for="slide59"></label>
+            <label for="slide60"></label>
+          </div>
+        </div>
+
+
+        <!-- info terceira roupa -->
+        <div class="infos-roupas">
+          <h3>The Eerie</h3>
+          <h5>Masculino</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+
+        <!-- quarta roupa -->
+        <div class="slider">
+          <input type="radio" id="slide61" name="slides19" checked>
+          <input type="radio" id="slide62" name="slides19">
+          <input type="radio" id="slide63" name="slides19">
+          <input type="radio" id="slide64" name="slides19">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide61"></label>
+            <label for="slide62"></label>
+            <label for="slide63"></label>
+            <label for="slide64"></label>
+          </div>
+        </div>
+
+
+        <!-- info quarta roupa -->
+        <div class="infos-roupas">
+          <h3>The Angel</h3>
+          <h5>Masculino</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+      </div>
+      <div id="roupas">
+        <div class="slider">
+          <input type="radio" id="slide65" name="slides16" checked>
+          <input type="radio" id="slide66" name="slides16">
+          <input type="radio" id="slide67" name="slides16">
+          <input type="radio" id="slide68" name="slides16">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide65"></label>
+            <label for="slide66"></label>
+            <label for="slide67"></label>
+            <label for="slide68"></label>
+          </div>
+        </div>
+
+
+        <!-- info primeira roupa -->
+        <div class="infos-roupas">
+          <h3>The Japan</h3>
+          <h5>Masculino</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+
+        <!-- segunda roupa -->
+        <div class="slider">
+          <input type="radio" id="slide69" name="slides17" checked>
+          <input type="radio" id="slide70" name="slides17">
+          <input type="radio" id="slide71" name="slides17">
+          <input type="radio" id="slide72" name="slides17">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide69"></label>
+            <label for="slide70"></label>
+            <label for="slide71"></label>
+            <label for="slide72"></label>
+          </div>
+        </div>
+
+        <!-- info segunda roupa -->
+        <div class="infos-roupas">
+          <h3>The Draco</h3>
+          <h5>Masculino</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+        <!-- terceira roupa -->
+        <div class="slider">
+          <input type="radio" id="slide73" name="slides18" checked>
+          <input type="radio" id="slide74" name="slides18">
+          <input type="radio" id="slide75" name="slides18">
+          <input type="radio" id="slide76" name="slides18">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide73"></label>
+            <label for="slide74"></label>
+            <label for="slide75"></label>
+            <label for="slide76"></label>
+          </div>
+        </div>
+
+
+        <!-- info terceira roupa -->
+        <div class="infos-roupas">
+          <h3>The Eerie</h3>
+          <h5>Masculino</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+
+        <!-- quarta roupa -->
+        <div class="slider">
+          <input type="radio" id="slide77" name="slides19" checked>
+          <input type="radio" id="slide78" name="slides19">
+          <input type="radio" id="slide79" name="slides19">
+          <input type="radio" id="slide80" name="slides19">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide77"></label>
+            <label for="slide78"></label>
+            <label for="slide79"></label>
+            <label for="slide80"></label>
+          </div>
+        </div>
+
+
+        <!-- info quarta roupa -->
+        <div class="infos-roupas">
+          <h3>The Angel</h3>
+          <h5>Masculino</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feminino -->
+
+    <section id="Feminino">
+
+      <div>
+        <h2 class="Title-cate">Feminino</h2>
+        <p class="Para-cate">Produtos voltados para o público Feminino</p>
+      </div>
+      <div id="roupas">
+        <div class="slider">
+          <input type="radio" id="slide81" name="slides20" checked>
+          <input type="radio" id="slide82" name="slides20">
+          <input type="radio" id="slide83" name="slides20">
+          <input type="radio" id="slide84" name="slides20">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide81"></label>
+            <label for="slide82"></label>
+            <label for="slide83"></label>
+            <label for="slide84"></label>
+          </div>
+        </div>
+
+
+        <!-- info primeira roupa -->
+        <div class="infos-roupas">
+          <h3>The Japan</h3>
+          <h5>Feminino</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+
+        <!-- segunda roupa -->
+        <div class="slider">
+          <input type="radio" id="slide85" name="slides21" checked>
+          <input type="radio" id="slide86" name="slides21">
+          <input type="radio" id="slide87" name="slides21">
+          <input type="radio" id="slide88" name="slides21">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide85"></label>
+            <label for="slide86"></label>
+            <label for="slide87"></label>
+            <label for="slide88"></label>
+          </div>
+        </div>
+
+        <!-- info segunda roupa -->
+        <div class="infos-roupas">
+          <h3>The Draco</h3>
+          <h5>Feminino</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+        <!-- terceira roupa -->
+        <div class="slider">
+          <input type="radio" id="slide89" name="slides22" checked>
+          <input type="radio" id="slide90" name="slides22">
+          <input type="radio" id="slide91" name="slides22">
+          <input type="radio" id="slide92" name="slides22">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide89"></label>
+            <label for="slide90"></label>
+            <label for="slide91"></label>
+            <label for="slide92"></label>
+          </div>
+        </div>
+
+
+        <!-- info terceira roupa -->
+        <div class="infos-roupas">
+          <h3>The Eerie</h3>
+          <h5>Feminino</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+
+        <!-- quarta roupa -->
+        <div class="slider">
+          <input type="radio" id="slide93" name="slides23" checked>
+          <input type="radio" id="slide94" name="slides23">
+          <input type="radio" id="slide95" name="slides23">
+          <input type="radio" id="slide96" name="slides23">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide93"></label>
+            <label for="slide94"></label>
+            <label for="slide95"></label>
+            <label for="slide96"></label>
+          </div>
+        </div>
+
+
+        <!-- info quarta roupa -->
+        <div class="infos-roupas">
+          <h3>The Angel</h3>
+          <h5>Feminino</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+      </div>
+      <div id="roupas">
+        <div class="slider">
+          <input type="radio" id="slide97" name="slides24" checked>
+          <input type="radio" id="slide98" name="slides24">
+          <input type="radio" id="slide99" name="slides24">
+          <input type="radio" id="slide100" name="slides24">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide97"></label>
+            <label for="slide98"></label>
+            <label for="slide99"></label>
+            <label for="slide100"></label>
+          </div>
+        </div>
+
+
+        <!-- info primeira roupa -->
+        <div class="infos-roupas">
+          <h3>The Japan</h3>
+          <h5>Feminino</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+
+        <!-- segunda roupa -->
+        <div class="slider">
+          <input type="radio" id="slide101" name="slides25" checked>
+          <input type="radio" id="slide102" name="slides25">
+          <input type="radio" id="slide103" name="slides25">
+          <input type="radio" id="slide104" name="slides25">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide101"></label>
+            <label for="slide102"></label>
+            <label for="slide103"></label>
+            <label for="slide104"></label>
+          </div>
+        </div>
+
+        <!-- info segunda roupa -->
+        <div class="infos-roupas">
+          <h3>The Draco</h3>
+          <h5>Feminino</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+        <!-- terceira roupa -->
+        <div class="slider">
+          <input type="radio" id="slide105" name="slides26" checked>
+          <input type="radio" id="slide106" name="slides26">
+          <input type="radio" id="slide107" name="slides26">
+          <input type="radio" id="slide108" name="slides26">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide105"></label>
+            <label for="slide106"></label>
+            <label for="slide107"></label>
+            <label for="slide108"></label>
+          </div>
+        </div>
+
+
+        <!-- info terceira roupa -->
+        <div class="infos-roupas">
+          <h3>The Eerie</h3>
+          <h5>Feminino</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+
+        <!-- quarta roupa -->
+        <div class="slider">
+          <input type="radio" id="slide109" name="slides27" checked>
+          <input type="radio" id="slide110" name="slides27">
+          <input type="radio" id="slide111" name="slides27">
+          <input type="radio" id="slide112" name="slides27">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide109"></label>
+            <label for="slide110"></label>
+            <label for="slide111"></label>
+            <label for="slide112"></label>
+          </div>
+        </div>
+
+
+        <!-- info quarta roupa -->
+        <div class="infos-roupas">
+          <h3>The Angel</h3>
+          <h5>Feminino</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Unissex -->
+    <section id="Unissex">
+
+      <div>
+        <h2 class="Title-cate">Unissex</h2>
+        <p class="Para-cate">Produtos voltados para o público feminino tanto para masculino</p>
+      </div>
+      <div id="roupas">
+        <div class="slider">
+          <input type="radio" id="slide113" name="slides28" checked>
+          <input type="radio" id="slide114" name="slides28">
+          <input type="radio" id="slide115" name="slides28">
+          <input type="radio" id="slide116" name="slides28">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide113"></label>
+            <label for="slide114"></label>
+            <label for="slide115"></label>
+            <label for="slide116"></label>
+          </div>
+        </div>
+
+
+        <!-- info primeira roupa -->
+        <div class="infos-roupas">
+          <h3>The Japan</h3>
+          <h5>Unissex</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+
+        <!-- segunda roupa -->
+        <div class="slider">
+          <input type="radio" id="slide117" name="slides29" checked>
+          <input type="radio" id="slide118" name="slides29">
+          <input type="radio" id="slide119" name="slides29">
+          <input type="radio" id="slide120" name="slides29">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide117"></label>
+            <label for="slide118"></label>
+            <label for="slide119"></label>
+            <label for="slide120"></label>
+          </div>
+        </div>
+
+        <!-- info segunda roupa -->
+        <div class="infos-roupas">
+          <h3>The Draco</h3>
+          <h5>Unissex</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+        <!-- terceira roupa -->
+        <div class="slider">
+          <input type="radio" id="slide121" name="slides30" checked>
+          <input type="radio" id="slide122" name="slides30">
+          <input type="radio" id="slide123" name="slides30">
+          <input type="radio" id="slide124" name="slides30">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide121"></label>
+            <label for="slide122"></label>
+            <label for="slide123"></label>
+            <label for="slide124"></label>
+          </div>
+        </div>
+
+
+        <!-- info terceira roupa -->
+        <div class="infos-roupas">
+          <h3>The Eerie</h3>
+          <h5>Unissex</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+
+        <!-- quarta roupa -->
+        <div class="slider">
+          <input type="radio" id="slide125" name="slides31" checked>
+          <input type="radio" id="slide126" name="slides31">
+          <input type="radio" id="slide127" name="slides31">
+          <input type="radio" id="slide128" name="slides31">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide125"></label>
+            <label for="slide126"></label>
+            <label for="slide127"></label>
+            <label for="slide128"></label>
+          </div>
+        </div>
+
+
+        <!-- info quarta roupa -->
+        <div class="infos-roupas">
+          <h3>The Angel</h3>
+          <h5>Unissex</h5>
+          <h4>R$ 249,90</h4>
+        </div>
+      </div>
+      <div id="roupas">
+        <div class="slider">
+          <input type="radio" id="slide129" name="slides32" checked>
+          <input type="radio" id="slide130" name="slides32">
+          <input type="radio" id="slide131" name="slides32">
+          <input type="radio" id="slide132" name="slides32">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide129"></label>
+            <label for="slide130"></label>
+            <label for="slide131"></label>
+            <label for="slide132"></label>
+          </div>
+        </div>
+
+
+        <!-- info primeira roupa -->
+        <div class="infos-roupas">
+          <h3>The Japan</h3>
+          <h5>Unissex</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+
+        <!-- segunda roupa -->
+        <div class="slider">
+          <input type="radio" id="slide133" name="slides33" checked>
+          <input type="radio" id="slide134" name="slides33">
+          <input type="radio" id="slide135" name="slides33">
+          <input type="radio" id="slide136" name="slides33">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa branca logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Camisa preta logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide133"></label>
+            <label for="slide134"></label>
+            <label for="slide135"></label>
+            <label for="slide136"></label>
+          </div>
+        </div>
+
+        <!-- info segunda roupa -->
+        <div class="infos-roupas">
+          <h3>The Draco</h3>
+          <h5>Unissex</h4>
+            <h4>R$ 199,90</h4>
+        </div>
+
+        <!-- terceira roupa -->
+        <div class="slider">
+          <input type="radio" id="slide137" name="slides34" checked>
+          <input type="radio" id="slide138" name="slides34">
+          <input type="radio" id="slide139" name="slides34">
+          <input type="radio" id="slide140" name="slides34">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 1.png" alt="Imagem 4">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 1.png" alt="Imagem 2">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide137"></label>
+            <label for="slide138"></label>
+            <label for="slide139"></label>
+            <label for="slide140"></label>
+          </div>
+        </div>
+
+
+        <!-- info terceira roupa -->
+        <div class="infos-roupas">
+          <h3>The Eerie</h3>
+          <h5>Unissex</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+
+        <!-- quarta roupa -->
+        <div class="slider">
+          <input type="radio" id="slide141" name="slides35" checked>
+          <input type="radio" id="slide142" name="slides35">
+          <input type="radio" id="slide143" name="slides35">
+          <input type="radio" id="slide144" name="slides35">
+
+          <div class="slides-container">
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom branco logo 2.png" alt="Imagem 2">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+            </div>
+            <div class="slide">
+              <img src="./Assets/Roupas prontas/Moletom preto logo 2.png" alt="Imagem 4">
+            </div>
+          </div>
+
+          <div class="slides-navigation">
+            <label for="slide141"></label>
+            <label for="slide142"></label>
+            <label for="slide143"></label>
+            <label for="slide144"></label>
+          </div>
+        </div>
+
+
+        <!-- info quarta roupa -->
+        <div class="infos-roupas">
+          <h3>The Angel</h3>
+          <h5>Unissex</h4>
+            <h4>R$ 249,90</h4>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Sua Sacola -->
+    <section>
+      <div id="sacola">
+        <img class="img-sua-sacola" src="./Assets/bolsa-de-compras.png" alt="">
+        <h2 class="Title-sacola">Sacola</h2>
+      </div>
+      <div id="roupas">
+        <div class="faixa1">
+          <div class="slider">
+            <input type="radio" id="slide145" name="slides32" checked>
+            <input type="radio" id="slide146" name="slides32">
+            <input type="radio" id="slide147" name="slides32">
+            <input type="radio" id="slide148" name="slides32">
+
+            <div class="slides-container">
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Camisa preta logo 1.png" alt="Imagem 4">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Camisa branca logo 1.png" alt="Imagem 2">
+              </div>
+            </div>
+
+            <div class="slides-navigation">
+              <label for="slide145"></label>
+              <label for="slide146"></label>
+              <label for="slide147"></label>
+              <label for="slide148"></label>
+            </div>
+          </div>
+
+
+          <!-- info primeira roupa -->
+          <div class="infos-roupas-sacola">
+            <h3>The Japan</h3>
+            <h5>Unissex</h4>
+              <h4>R$ 199,90</h4>
+          </div>
+
+
+          <!-- segunda roupa -->
+          <div class="slider">
+            <input type="radio" id="slide149" name="slides33" checked>
+            <input type="radio" id="slide150" name="slides33">
+            <input type="radio" id="slide151" name="slides33">
+            <input type="radio" id="slide152" name="slides33">
+
+            <div class="slides-container">
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Camisa branca frente.png" alt="Imagem 1">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Camisa branca logo 2.png" alt="Imagem 2">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Camisa preta frente.png" alt="Imagem 3">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Camisa preta logo 2.png" alt="Imagem 4">
+              </div>
+            </div>
+
+            <div class="slides-navigation">
+              <label for="slide149"></label>
+              <label for="slide150"></label>
+              <label for="slide151"></label>
+              <label for="slide152"></label>
+            </div>
+          </div>
+
+          <!-- info segunda roupa -->
+          <div class="infos-roupas-sacola">
+            <h3>The Draco</h3>
+            <h5>Unissex</h4>
+              <h4>R$ 199,90</h4>
+          </div>
+        </div>
+
+        <div class="faixa2">
+
+          <!-- terceira roupa -->
+          <div class="slider">
+            <input type="radio" id="slide153" name="slides34" checked>
+            <input type="radio" id="slide154" name="slides34">
+            <input type="radio" id="slide155" name="slides34">
+            <input type="radio" id="slide156" name="slides34">
+
+            <div class="slides-container">
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Moletom preto logo 1.png" alt="Imagem 4">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Moletom branco logo 1.png" alt="Imagem 2">
+              </div>
+            </div>
+
+            <div class="slides-navigation">
+              <label for="slide153"></label>
+              <label for="slide154"></label>
+              <label for="slide155"></label>
+              <label for="slide156"></label>
+            </div>
+          </div>
+
+
+          <!-- info terceira roupa -->
+          <div class="infos-roupas-sacola">
+            <h3>The Eerie</h3>
+            <h5>Unissex</h4>
+              <h4>R$ 249,90</h4>
+          </div>
+
+          <!-- quarta roupa -->
+          <div class="slider">
+            <input type="radio" id="slide157" name="slides35" checked>
+            <input type="radio" id="slide158" name="slides35">
+            <input type="radio" id="slide159" name="slides35">
+            <input type="radio" id="slide160" name="slides35">
+
+            <div class="slides-container">
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Moletom branco frente.png" alt="Imagem 1">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Moletom branco logo 2.png" alt="Imagem 2">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Moletom preto frente.png" alt="Imagem 3">
+              </div>
+              <div class="slide">
+                <img src="./Assets/Roupas prontas/Moletom preto logo 2.png" alt="Imagem 4">
+              </div>
+            </div>
+
+            <div class="slides-navigation">
+              <label for="slide157"></label>
+              <label for="slide158"></label>
+              <label for="slide159"></label>
+              <label for="slide160"></label>
+            </div>
+          </div>
+
+
+          <!-- info quarta roupa -->
+          <div class="infos-roupas-sacola">
+            <h3>The Angel</h3>
+            <h5>Unissex</h4>
+              <h4>R$ 249,90</h4>
+          </div>
+        </div>
+
+        <div class="quadro-compra">
+          <div class="title-pedido">
+            <h2>RESUMO DO PEDIDO</h2>
+          </div>
+
+          <div class="qnt-produtos">
+            <h3>Total de produtos</h3>
+            <h3>R$ 899,60</h3>
+          </div>
+
+          <div class="vlr-ft">
+            <h3>Frete</h3>
+            <h3>R$ 20,00</h3>
+          </div>
+
+          <div class="vlr-desc">
+            <h3>Desconto à vista</h3>
+            <h3>10%</h3>
+          </div>
+
+          <div class="faixa-total1"></div>
+
+          <div class="vlr-tt">
+            <h3>Total</h3>
+            <h3>R$ 827,64</h3>
+          </div>
+
+          <div class="faixa-total2"></div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    Todos os direitos reservados
+  </footer>
+</body>
+
+</html>
